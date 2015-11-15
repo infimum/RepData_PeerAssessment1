@@ -31,7 +31,7 @@ histplot <- ggplot(total.steps.by.day,aes(x = steps)) +
 histplot
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](figures/2.png) 
 
 ```r
 #mean total number of steps taken per day
@@ -64,7 +64,7 @@ avg.step.line <- ggplot(average.steps.by.interval,aes(interval,steps)) +
 avg.step.line  
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figures/3.png) 
 
 ```r
 #The 5-min time interval contains the maximum number of steps?
@@ -110,7 +110,7 @@ histplot <- ggplot(total.steps.by.day,aes(x = steps)) +
 histplot 
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figures/4.png) 
 
 ```r
 #mean total number of steps taken per day
@@ -150,4 +150,4 @@ avg.step.line <- ggplot(average.steps.by.interval.and.weekday,aes(interval,steps
 avg.step.line  
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-5](figures/5.png) 
